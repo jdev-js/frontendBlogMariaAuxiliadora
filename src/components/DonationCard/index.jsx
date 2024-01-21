@@ -9,8 +9,8 @@ export default function DonationCard({data,refetch}) {
   const dateObject = new Date()
 
   const handleClick = () => {
-    deleteDonation().then((res) => {
-      if(res.data?.deleteDonation === true) refetch()
+    deleteDonation({ variables: { id: data.id } }).then((res) => {
+      refetch()
     })
   }
 
