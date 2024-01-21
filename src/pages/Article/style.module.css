@@ -28,3 +28,9 @@
     justify-self: flex-start;
     margin-bottom: 10px;
 }
+
+@media (max-width: 360px) {
+    .searchContainer{
+        display: none;
+    }
+}

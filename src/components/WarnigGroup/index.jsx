@@ -16,7 +16,7 @@ export function NotGroup(){
   return(
     <div className={styles.containerNotArticulo}>
     <img src={imgURL}/>
-    <h4>Noy hay grupos disponibles</h4>
+    <h4>Sin grupos disponibles</h4>
   </div>
   )
 }

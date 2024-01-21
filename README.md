@@ -1,3 +1,1 @@
-# Poner las imagenes reales
-# Subir a la web
- 
+# Blog informativo 

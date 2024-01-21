@@ -17,7 +17,7 @@ export function NotEvent(){
   return(
     <div className={styles.containerNotArticulo}>
     <img src={imgURL}/>
-    <h4>Noy hay Eventos disponibles</h4>
+    <h4>Sin Eventos disponibles</h4>
   </div>
   )
 }
