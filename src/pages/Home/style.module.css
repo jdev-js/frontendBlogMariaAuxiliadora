@@ -76,7 +76,7 @@ footer{
     color: #1c1c1c;
 }
 
-.containerRedSocial > svg {
+.containerRedSocial > a > svg {
     fill: #d40c98
 }
 
