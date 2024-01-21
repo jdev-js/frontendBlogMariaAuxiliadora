@@ -34,7 +34,7 @@ export default function HomePage() {
           ?.filter((parroco) => parroco.type === "ACT")
           .map((parroco) => {
             return (
-              <section key={parroco.id} className={[styles.card,styles.cardReverse]}>
+              <section key={parroco.id} className={styles.card}>
                 <div className={styles.img}>
                   <img src={parroco.imageURL} alt='Imagen del parroco' />
                 </div>
