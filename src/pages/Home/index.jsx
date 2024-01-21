@@ -19,14 +19,14 @@ export default function HomePage() {
           </div>
           <div className={styles.info}>
             <h4>Historia</h4>
-            <span>
+            <p>
               Todo comenzo en un galpón ubicado en el Sector 12 de
               Octubre,gracias a la iniciativa de la Señora Maritza y la
               coloboración de la comunidad.Este lugar fue elegido como sitio de
               reunión para las misas dominicales. Con el apoyo de las hermanas
               Salesianas. la comunidad crecio, y se decidio nombrarla Parroquia
               Maria Auxiliadora.
-            </span>
+            </p>
           </div>
         </section>
 
@@ -40,7 +40,11 @@ export default function HomePage() {
                 </div>
                 <div className={styles.info}>
                   <h4>{parroco.name}</h4>
-                  <span>{parroco.description}</span>
+                  <p>
+                    {parroco.description.length > 80
+                      ? parroco.description.slice(0, 80).concat("...")
+                      : parroco.description}
+                  </p>
                 </div>
               </section>
             )
