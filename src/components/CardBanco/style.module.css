@@ -10,6 +10,8 @@
   padding: 2px 15px;
   transition: 300ms all ease-in-out;
   cursor: pointer;
+  text-decoration: none;
+  color: #1c1c1c;
 }
 
 .cardContainer:hover{

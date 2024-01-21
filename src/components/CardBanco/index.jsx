@@ -2,7 +2,7 @@ import styles from "./style.module.css"
 
 function CardBanco({ srcIcon, nameBanco, size, margin, url }) {
   return (
-    <a href={url} className={styles.cardContainer}>
+    <a href={url} target='_blank' className={styles.cardContainer}>
       <img
         style={{ marginRight: margin }}
         width={size.width}
