@@ -1,11 +1,18 @@
-import styles from './style.module.css'
+import styles from "./style.module.css"
 
-function CardBanco({srcIcon,nameBanco,size,margin}) {
+function CardBanco({ srcIcon, nameBanco, size, margin, url }) {
   return (
-    <div className={styles.cardContainer}>
-        <img style={{ marginRight: margin }} width={size.width} height={size.height} className={styles.img} src={srcIcon} alt={`${nameBanco}`} />
-        <span className={styles.title}>{nameBanco}</span>
-    </div>
+    <a href={url} className={styles.cardContainer}>
+      <img
+        style={{ marginRight: margin }}
+        width={size.width}
+        height={size.height}
+        className={styles.img}
+        src={srcIcon}
+        alt={`${nameBanco}`}
+      />
+      <span className={styles.title}>{nameBanco}</span>
+    </a>
   )
 }
 export default CardBanco
