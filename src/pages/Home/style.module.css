@@ -24,7 +24,7 @@ body{
 
 .img{
     width: 40%;
-    height: 100vh;
+    height: 100%;
 }
 
 .img > img{
