@@ -1,0 +1,76 @@
+.containerSection{
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.errorInput{
+    color: #ff0051;
+    font-size: 12px;
+}
+
+.head{
+    font-family: "Open Sans";
+    padding: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.spanInput{
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-size: 13px;
+}
+
+.img{
+    width: 75px;
+    height: 75px;
+}
+
+.textWarning{
+    font-family: "Open Sans";
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 320px;
+    margin-top: 20px;
+
+}
+
+.textDescriptionWarnig{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 20px;
+}
+
+.ptsList{
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+    margin-right: 5px;
+}
+
+.arrowIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    margin-left: 80px;
+}

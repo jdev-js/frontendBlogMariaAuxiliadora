@@ -1,0 +1,30 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.searchContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchContainer > h2{
+    width: 100%;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-bottom: 10px;
+}

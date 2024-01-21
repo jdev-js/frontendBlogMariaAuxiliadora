@@ -1,0 +1,21 @@
+.containerTopBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+.textLogout{
+    display: block;
+    margin-right: 20px;
+    color:#88d4f2;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.textLogout:hover{
+    transform: scale(1.1,1.1);
+}

@@ -1,0 +1,70 @@
+.modalBackground{
+    position: absolute;
+    background-color: #1c1c1cb9;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+
+}
+
+.toolsContainer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px
+}
+
+
+.titleModal{
+    font-family: 'Open Sans Semibold';
+    font-size: 17px;
+    align-self: center;
+    text-align: center;
+    flex: 1;
+}
+
+.containerButton{
+    position: absolute;
+    top: 50;
+    right: 40;
+}
+
+.content{
+    width: 100%;
+    height: 90%;
+}
+
+.modalContainer{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    animation-name: inModal;
+    animation-duration: 200ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    transition: all ease-in 300ms;
+    overflow-y: auto;
+    z-index: 4;
+}
+
+@keyframes inModal {
+    from{
+        opacity: 0;
+        transform: scale(0.8,0.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}

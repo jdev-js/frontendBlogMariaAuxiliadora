@@ -1,0 +1,59 @@
+.fileDropArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    user-select: none;
+    width: 60%;
+    height: 250px;
+}
+.fileInputLabel{
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 5px;
+}
+
+.imgContainer{
+    width: 60%;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.imgContainer > img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgContainer > button:hover{
+    background-color: #1c1c1c;
+    transform: scale(1.05,1.05);
+}
+
+.imgContainer > button{
+    transition: all ease-in-out 300ms;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    overflow: hidden;
+    z-index: 20;
+    width: 40px;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-family: 'Open Sans Semibold';
+    background-color: #1c1c1c7b;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 8px
+}

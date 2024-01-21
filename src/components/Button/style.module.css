@@ -1,0 +1,94 @@
+.buttonLarge{
+    width: 120px;
+    height: 35px;
+    background-color: #fc447e;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #FFF;
+    margin: 5px;
+    transition: all ease-in-out 300ms;
+    font-family: "Open Sans Semibold";
+
+}
+
+.buttonLargeGhost{
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #fc447e;
+    outline: none;
+    color: #fc447e;
+    margin: 5px;
+    transition: all ease-in-out 300ms;
+    font-family: "Open Sans Semibold";
+}
+
+.buttonLargeGhost:hover{
+    background-color: #fc447e;
+    color: #f8f8f8;
+    transform: scale(1.05,1.05);
+
+}
+
+.buttonSmall{
+    width: 90px;
+    height: 30px;
+    background-color: #fc447e;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin: 5px;
+    transition: all ease-in-out 300ms;
+    font-family: "Open Sans Semibold";
+}
+
+.buttonIcon{
+    width: 40px;
+    height: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px #1c1c1c85;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin: 5px;
+    transition: all ease-in-out 300ms;
+    font-family: "Open Sans Semibold";
+}
+
+.buttonLarge:hover{
+    background-color: #ff6495;
+    transform: scale(1.05,1.05);
+}
+
+.buttonSmall:hover{
+    background-color: #ff6495;
+    transform: scale(1.05,1.05);
+}
+
+.buttonIcon:hover{
+    transform: scale(1.05,1.05);
+}

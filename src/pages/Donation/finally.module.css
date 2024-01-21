@@ -1,0 +1,47 @@
+.containerSection{
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.img{
+    position: absolute;
+    top: 0;
+    margin-top: 60px;
+    left: 200;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.head{
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    color: #1c1c1c;
+    font-family: 'Open Sans';
+}
+
+@media (max-width: 360px) {
+    .head{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .img{
+        position: absolute;
+        top: 0;
+        margin-top: 170px;
+        left: 200;
+        width: 300px;
+        height: 200px;
+    }
+}

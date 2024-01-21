@@ -1,0 +1,23 @@
+.spin{
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #fc447e;
+    border-left: 4px solid transparent;
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotateZ(0deg);
+    }
+
+    to{
+        transform: rotateZ(360deg);
+    }
+}
